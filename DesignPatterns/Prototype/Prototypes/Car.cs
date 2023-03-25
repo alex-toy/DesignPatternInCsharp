@@ -20,7 +20,7 @@ namespace Prototype.Prototypes
 
         public override Prototype Clone()
         {
-            throw new NotImplementedException();
+            return new Car(Make, Model, Year, new List<string>());
         }
     }
 }
